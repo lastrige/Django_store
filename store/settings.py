@@ -18,10 +18,6 @@ env = environ.Env(
     EMAIL_HOST_USER=(str),
     EMAIL_HOST_PASSWORD=(str),
     EMAIL_USE_SSL=(bool),
-
-
-
-
 )
 
 BASE_DIR = Path(__file__).resolve().parent.parent
